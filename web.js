@@ -1,3 +1,10 @@
+#!/usr/bin/env node
+
+fs = require('fs');
+
+var data;
+
+data = fs.readFileSync('index.html','utf8');
 
 
 var express = require('express');
